@@ -30,7 +30,7 @@ const displayDrinks = drinks => {
     displayResult.textContent = '';
 
     if(!drinks) {
-        alert('No drinks Found');
+        alert('No drinks Found, please try again');
     }
 
     else {
